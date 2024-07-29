@@ -11,6 +11,10 @@ def fibonacci(n):
         return 0
     elif(n==2):
         return 1
-    else
+    else:
         return fibonacci(n-1)+fibonacci(n-2)
     
+a=int(input('Enter'))
+b=int(input('Enter'))
+sum=a+b
+print(sum)
